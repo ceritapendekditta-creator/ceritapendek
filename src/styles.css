@@ -1,0 +1,63 @@
+@import "tailwindcss" source("../");
+
+@theme {
+  --color-toska-50: #f0fdfa;
+  --color-toska-100: #ccfbf1;
+  --color-toska-200: #99f6e4;
+  --color-toska-300: #5eead4;
+  --color-toska-400: #2dd4bf;
+  --color-toska-500: #14b8a6;
+  --color-toska-600: #0d9488;
+  --color-toska-700: #0f766e;
+  --color-toska-800: #115e59;
+  --color-toska-900: #134e4a;
+  --color-toska: #0d9488;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  background-color: #fafdfd; /* extremely light teal tint */
+  color: #1f2937;
+}
+
+code {
+  font-family: Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+/* Custom transitions and hover effects */
+.nav-link-hover {
+  position: relative;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.nav-link-hover::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 3px;
+  bottom: -4px;
+  left: 50%;
+  background-color: var(--color-toska-500);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  transform: translateX(-50%);
+  border-radius: 9999px;
+}
+
+.nav-link-hover:hover {
+  color: var(--color-toska-600);
+  transform: translateY(-2px);
+}
+
+.nav-link-hover:hover::after {
+  width: 100%;
+}
+
+/* Anti-copy text styles */
+.anti-copy {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}

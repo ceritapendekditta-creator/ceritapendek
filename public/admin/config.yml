@@ -1,0 +1,22 @@
+backend:
+  name: git-gateway
+  branch: master
+
+media_folder: "public/images/uploads"
+public_folder: "/images/uploads"
+
+collections:
+  - name: "posts"
+    label: "Koleksi Cerpen"
+    folder: "content/posts"
+    create: true
+    slug: "{{slug}}"
+    editor:
+      preview: false
+    fields:
+      - { label: "Judul Cerpen", name: "title", widget: "string", required: true }
+      - { label: "Ringkasan / Summary", name: "summary", widget: "text", required: true }
+      - { label: "Tanggal Upload", name: "date", widget: "date", format: "YYYY-MM-DD", default: "{{today}}", required: true }
+      - { label: "Kategori", name: "categories", widget: "list", default: ["Umum"], required: true }
+      - { label: "Sampul Cerpen (Cover)", name: "image", widget: "image", default: "placeholder.png", required: true }
+      - { label: "Isi Cerpen", name: "body", widget: "markdown", required: true }
