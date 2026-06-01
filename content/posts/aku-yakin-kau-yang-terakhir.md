@@ -1,9 +1,12 @@
 ---
 title: "Aku Yakin Kau Yang Terakhir "
-summary: "Mengisahkan kisah yang romantis "
+summary: Suatu sore, saat Melisa sedang duduk di taman belakang rumah, ia
+  melihat seorang pemuda sedang sibuk memperbaiki pagar rumah tetangganya yang
+  rusak. Pemuda itu bernama Bisma. Wajahnya ramah, senyumannya tulus, dan sorot
+  matanya yang hangat membuat Melisa merasa tenang saat menatapnya.
 date: "{{today}}"
 categories:
-  - Romantis
+  - Drama
 image: /images/uploads/img-20260601-wa0025.jpg
 ---
 Udara sore itu terasa menyesakkan, seperti biasa. Melisa duduk di ambang jendela kamarnya, menatap ke luar.
