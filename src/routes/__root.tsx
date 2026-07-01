@@ -103,6 +103,15 @@ function RootDocument({ children }: { children: React.ReactNode }) {
             }
           });
         `}} />
+        <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-T2Z85XC4TB"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-T2Z85XC4TB');
+</script>
       </head>
       <body className="min-h-screen flex flex-col bg-[#fafdfd] selection:bg-toska-200 selection:text-toska-800">
         {/* Header */}
