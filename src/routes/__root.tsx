@@ -90,6 +90,16 @@ function RootDocument({ children }: { children: React.ReactNode }) {
     <html lang="id">
       <head>
         <HeadContent />
+        {/* Google tag (gtag.js) - Script Eksternal */}
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-T2Z85XC4TB" />
+        
+        {/* Google tag (gtag.js) - Konfigurasi Internal */}
+        <script dangerouslySetInnerHTML={{__html: `
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-T2Z85XC4TB');
+        `}} />
         <script dangerouslySetInnerHTML={{__html: `
           document.addEventListener("DOMContentLoaded", () => {
             if (window.netlifyIdentity) {
