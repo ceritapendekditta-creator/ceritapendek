@@ -8,7 +8,7 @@ summary: Arga, seorang agen elit yang taat, menerima misi untuk memburu dan
 date: "{{today}}"
 categories:
   - Action
-image: /images/uploads/screenshot_2026-08-04-11-20-14-48.jpg
+image: /images/uploads/img_20260804_112941.jpg
 ---
 Hujan turun deras di gang sempit Jakarta malam itu. Suara langkah sepatu terdengar cepat, menyusuri lorong gelap yang hanya diterangi lampu neon berkedip. Di balik jaket hitamnya, Arga menggenggam pistol yang masih hangat—ia baru saja menyelesaikan satu misi. Tapi malam ini bukan akhir, melainkan awal.
 
