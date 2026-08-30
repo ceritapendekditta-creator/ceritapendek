@@ -3,7 +3,7 @@ title: "Dibawah Langit Jingga "
 summary: >-
   
   Di bawah temaram langit jingga senja kota Bandung, Arumi dan Diko terjebak dalam pusaran rasa yang belum sempat terucap. Persahabatan erat yang telah lama terajut bersama Keysa, Farid, dan Intan perlahan diuji oleh rahasia hati dan ekspektasi keluarga. Kehadiran Papah Surya dengan segala prinsip hidupnya membuat langkah Arumi semakin berat dalam memperjuangkan cinta sejati. Di penghujung senja, sebuah keputusan besar harus diambil: terus memendam dalam diam atau melangkah berani menyambut senja yang baru.
-date: "{{today}}"
+date: "2026-07-30"
 categories:
   - Romantis
 image: /images/uploads/img_20260730_163853.jpg

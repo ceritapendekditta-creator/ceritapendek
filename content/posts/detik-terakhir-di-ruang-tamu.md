@@ -7,7 +7,7 @@ summary: Enam orang sahabat—Ali, Ella, Lisa, Mey, Diki, dan Fandy—memutuskan
   mimpi buruk ketika mereka menyadari bahwa jam dinding di vila tersebut terus
   berputar mundur, dan setiap detik yang terlewat mengulang tragedi masa lalu
   kelam yang pernah terjadi di tempat itu.
-date: "{{today}}"
+date: "2026-08-05"
 categories:
   - Horor
 image: /images/uploads/img_20260805_215006.jpg

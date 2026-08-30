@@ -10,7 +10,7 @@ summary: >-
   ​Hari-hari Maia dalam sangkar emas penuh dengan tekanan batin, hingga ia kembali dipertemukan secara tak sengaja dengan Ringgo. Pertemuan itu membuka kembali luka lama sekaligus menyadarkan Maia betapa jauh ia telah tersesat dari jati dirinya sendiri.
 
   ​Di tengah badai rumah tangga yang kian merusak jiwanya, Maia mendapat dukungan penuh dari sahabat setianya, Atikah, serta uluran bantuan sederhana dari Pak Supri yang mengantarkannya pada titik balik kehidupan. Didorong oleh keberanian yang selama ini terkunci, Maia akhirnya menolak untuk terus menjadi boneka bagi ambisi orang lain. Ia bangkit, melepaskan ikatan toksik dengan Reno, dan memilih untuk memperjuangkan kebahagiaan serta harga dirinya sendiri.
-date: "{{today}}"
+date: "2026-07-30"
 categories:
   - Drama
 image: /images/uploads/img_20260730_144633.jpg

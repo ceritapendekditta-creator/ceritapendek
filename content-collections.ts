@@ -11,7 +11,7 @@ const posts = defineCollection({
     categories: z.array(z.string()),
     slug: z.string().optional(),
     image: z.string(),
-    date: z.string(),
+    date: z.iso.date(),
     content: z.string(),
   }),
   transform: async (doc) => {

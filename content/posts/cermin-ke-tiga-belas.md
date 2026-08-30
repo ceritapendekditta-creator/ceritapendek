@@ -5,7 +5,7 @@ summary: Sebuah keluarga kecil memutuskan pindah ke rumah tua warisan di
   antik berbingkai kayu jati legam di loteng yang tidak memantulkan bayangan
   dirinya, melainkan memperlihatkan sebuah lorong gelap mencekam di mana
   "sesuatu" sedang berjalan mendekat setiap kali jam dinding berdetak.
-date: "{{today}}"
+date: "2026-07-31"
 categories:
   - Horor
 image: /images/uploads/img_20260731_110452.jpg
