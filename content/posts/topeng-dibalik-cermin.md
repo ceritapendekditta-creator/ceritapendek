@@ -5,7 +5,7 @@ summary: Setiap kali Dimas melukis wajah seseorang, cermin itu tidak memantulkan
   datang berkunjung ke studionya. Ketika seorang kolektor seni terkenal datang
   menawarkan kontrak besar namun menyimpan niat busuk, cermin tua itu mulai
   membuka tabir kebohongan yang membahayakan nyawa Dimas.
-date: "{{today}}"
+date: "2026-08-10"
 categories:
   - Misteri
 image: /images/uploads/img_20260810_130948.jpg

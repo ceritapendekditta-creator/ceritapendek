@@ -9,7 +9,7 @@ summary: Di sebuah desa terpencil yang dikelilingi hutan lebat, terdapat sebuah
   "pemberian sesajen". Saat malam semakin larut, Arga mulai menyadari bahwa yang
   dikunci dari luar bukanlah untuk mencegah sesuatu masuk, melainkan untuk
   mencegah sesuatu yang ada di dalam agar tidak keluar.
-date: "{{today}}"
+date: "2026-08-03"
 categories:
   - Horor
 image: /images/uploads/screenshot_2026-08-03-20-40-18-97.jpg

@@ -5,7 +5,7 @@ summary: "Misi Arya sederhana namun mematikan: menyusup ke menara pusat kendali,
   menghancurkan sindikat itu dari dalam. Di antara hujan peluru, baku hantam
   jarak dekat, dan pengkhianatan dari orang yang ia percaya, Arya harus bertaruh
   nyawa untuk menyelesaikan pertarungan terakhirnya."
-date: "{{today}}"
+date: "2026-08-09"
 categories:
   - Action
 image: /images/uploads/img_20260809_080602.jpg

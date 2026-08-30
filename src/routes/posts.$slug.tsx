@@ -5,6 +5,8 @@ import { Calendar, Clock, BookOpen, ArrowLeft, ShieldAlert } from 'lucide-react'
 
 import { allPosts } from 'content-collections'
 
+import { formatPostDate } from '@/lib/date'
+
 export const Route = createFileRoute('/posts/$slug')({
   loader: async ({ params }) => {
     const post = allPosts.find((post) => post.slug === params.slug)
@@ -119,14 +121,10 @@ function RouteComponent() {
 
         {/* Metadata (Date and Reading time) */}
         <div className="flex items-center gap-4 text-xs text-gray-400 mb-6 border-b border-toska-100/30 pb-6 font-medium">
-          <span className="flex items-center gap-1">
+          <time dateTime={post.date} className="flex items-center gap-1">
             <Calendar size={13} className="text-toska-400" />
-            {new Date(post.date).toLocaleDateString('id-ID', {
-              day: 'numeric',
-              month: 'long',
-              year: 'numeric'
-            })}
-          </span>
+            Tanggal rilis: {formatPostDate(post.date)}
+          </time>
           <span className="flex items-center gap-1">
             <Clock size={13} className="text-toska-400" />
             {getReadingTime(post.content)}

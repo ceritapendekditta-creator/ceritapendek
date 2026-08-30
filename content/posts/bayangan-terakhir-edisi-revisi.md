@@ -5,7 +5,7 @@ summary: Arga, seorang agen elit yang taat, menerima misi untuk memburu dan
   tersebut membawanya ke sebuah gudang tua di Pelabuhan Selatan Jakarta, di
   tengah hujan deras. Pertemuan antara keduanya tak terelakkan; sebuah duel
   brutal pun pecah, menguji kemampuan dan tekad kedua mantan rekan tersebut.
-date: "{{today}}"
+date: "2026-08-04"
 categories:
   - Action
 image: /images/uploads/img_20260804_112941.jpg

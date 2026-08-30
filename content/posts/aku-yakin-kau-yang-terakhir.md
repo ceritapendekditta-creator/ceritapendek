@@ -4,7 +4,7 @@ summary: Suatu sore, saat Melisa sedang duduk di taman belakang rumah, ia
   melihat seorang pemuda sedang sibuk memperbaiki pagar rumah tetangganya yang
   rusak. Pemuda itu bernama Bisma. Wajahnya ramah, senyumannya tulus, dan sorot
   matanya yang hangat membuat Melisa merasa tenang saat menatapnya.
-date: "{{today}}"
+date: "2026-06-01"
 categories:
   - Drama
 image: /images/uploads/img-20260601-wa0025.jpg
