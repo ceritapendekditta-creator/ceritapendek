@@ -10,5 +10,24 @@
   <body>
     <!-- Decap CMS App -->
     <script src="https://unpkg.com/decap-cms@^3.0.0/dist/decap-cms.js"></script>
+    <!-- Tanggal rilis otomatis: diisi (WIB) hanya saat cerpen baru pertama kali dipublikasikan -->
+    <script>
+      CMS.registerEventListener({
+        name: 'preSave',
+        handler: ({ entry }) => {
+          const data = entry.get('data')
+          if (!entry.get('newRecord') || data.get('date')) return data
+
+          // en-CA menghasilkan format YYYY-MM-DD
+          const today = new Intl.DateTimeFormat('en-CA', {
+            timeZone: 'Asia/Jakarta',
+            year: 'numeric',
+            month: '2-digit',
+            day: '2-digit',
+          }).format(new Date())
+          return data.set('date', today)
+        },
+      })
+    </script>
   </body>
 </html>
