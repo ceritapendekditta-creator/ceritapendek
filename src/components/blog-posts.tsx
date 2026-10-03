@@ -3,7 +3,7 @@ import { BookOpen, Calendar, Clock, ArrowRight } from 'lucide-react'
 
 import { type Post } from 'content-collections'
 
-import { formatPostDate, getPostDateTimestamp } from '@/lib/date'
+import { comparePostDatesDesc, formatPostDate } from '@/lib/date'
 
 export default function BlogPosts({
   title,
@@ -12,9 +12,9 @@ export default function BlogPosts({
   title: string
   posts: Post[]
 }) {
-  // Sort posts by date (newest first)
-  const sortedPosts = [...posts].sort(
-    (a, b) => getPostDateTimestamp(b.date) - getPostDateTimestamp(a.date),
+  // Sort posts by date (newest first, undated last)
+  const sortedPosts = [...posts].sort((a, b) =>
+    comparePostDatesDesc(a.date, b.date),
   )
 
   // Simple reading time calculation
@@ -109,7 +109,7 @@ export default function BlogPosts({
                   <div>
                     {/* Date and Reading Time */}
                     <div className="flex items-center gap-4 text-xs text-gray-400 mb-3 font-medium">
-                      <time dateTime={post.date} className="flex items-center gap-1">
+                      <time dateTime={post.date ?? undefined} className="flex items-center gap-1">
                         <Calendar size={12} className="text-toska-400" />
                         Rilis {formatPostDate(post.date, 'short')}
                       </time>

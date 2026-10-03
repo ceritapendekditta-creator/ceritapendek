@@ -19,13 +19,12 @@ collections:
       - label: "Tanggal Rilis"
         name: "date"
         widget: "datetime"
-        default: "{{now}}"
         date_format: "DD MMMM YYYY"
         time_format: false
         format: "YYYY-MM-DD"
         picker_utc: false
-        required: true
-        hint: "Terisi otomatis saat cerpen baru dibuat. Ubah hanya jika tanggal rilisnya berbeda."
+        required: false
+        hint: "Biarkan kosong untuk cerpen baru: tanggal rilis terisi otomatis (WIB) saat pertama kali dipublikasikan. Tanggal cerpen lama tidak berubah saat diedit."
       - { label: "Kategori", name: "categories", widget: "list", default: ["Umum"], required: true }
       - { label: "Sampul Cerpen (Cover)", name: "image", widget: "image", default: "placeholder.png", required: true }
       - { label: "Isi Cerpen", name: "body", widget: "markdown", required: true }
