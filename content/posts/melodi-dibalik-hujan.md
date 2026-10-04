@@ -6,7 +6,7 @@ summary: Pertemuan yang awalnya hanya sebatas urusan tukar payung perlahan
   Arga yang kandas dan ketakutan Kiran akan komitmen datang menguji. Mampukah
   keduanya menyatukan dua dunia yang berbeda, ataukah mereka harus merelakan
   takdir berkata lain?
-date: ""
+date: 2026-08-30
 categories:
   - Romantis
 image: /images/uploads/img_20260830_184220.jpg
